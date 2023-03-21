@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.fcontainer{
+    height: 100vh;
+    width: 100%;
+    background-color: #222;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.wrapper{
+    padding: 100px;
+    background-color: lawngreen;
+    width: 20%;
+    height: 30%;
+    border-radius: 7px;
+}
+
+
+.link{
+    text-decoration: none;
+    list-style-type: none;
+    background-color: crimson;
+    color: brown;
+}
+
+.pertama{
+    color: chartreuse;
+}
+
+.klik{
+    position: fixed;
+    width: 20%;
+    right: 40%;
+    top: 60%;
+    color: green;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.klik a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #eaeaea;
+    padding: 9px;
+    height: 10px;
+    font-size: 30px;   
+    font-weight: 900;
+    border-radius: 15px;
+}
+
+h1{
+    position: fixed;
+    font-size: 20px;
+    font-weight: 800;
+    left: 45%;
+    bottom: 70%;
+}
+
+.klik a{
+    background-color: #222;
+    width: 100px;
+}
+
+.logo{
+    padding:10px;
+    border-radius:5px;
+    margin:10px 0;
+    width:100%;
+    height: 40%;
+    align-items: center;
+    
+    
+    
+}
+
+.logo input{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 2px solid #222;
+    background-color: #eaeaea;
+    border-radius: 7px;
+    padding: 7px;
+}
